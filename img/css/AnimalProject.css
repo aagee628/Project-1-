@@ -1,0 +1,201 @@
+ /* YOUR STYLE HERE */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 3px;
+}
+.column2 { 
+  float: center;
+  width: 33.33%;
+  padding: 3px;
+}
+.column3 {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* end of image container*/
+
+
+
+
+
+body {
+	font-family: "Raleway", sans-serif;
+	margin-top: 100px;
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    text-indent: inherit;
+    float: center;
+    text-align: 
+}
+
+
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* This webpage is using google font called Oswald
+https://fonts.google.com/specimen/Oswald 
+
+If you use google font, it would be good not to use too many font families 
+
+If you subscribe Adobe Typekit, you can use fonts from Typekit as well.
+*/
+pic{
+    text-align: right;
+    float: right;
+}
+
+ul>li{
+    /* you can change the bullet point for <ul> */
+    list-style-type: circle;
+        /*list-style-type: none; */
+}
+
+ol>li {
+    /* you can change the bullet point for <ol> */
+    list-style-type:lower-alpha;
+    /*list-style-type: none; */
+}
+
+#navbar{
+    /*overflow controls what happens to content that is too big to fit into an area*/
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    left:0;
+    width:100%;
+    display: list-item;
+}
+#navbar a{
+    /*displaying the links as block elements makes the whole area clickable; inline-block common to display items horizontally*/
+    display: inline-block; 
+    padding: 14px;
+    color: white;
+ }
+
+#navbar a:hover{
+    background-color:darkorange;
+}
+#navbar a:active{
+    background-color: grey;
+}
+
+
+h1 { 
+	font-family: 'Raleway', sans-serif;
+	font-size: 6em;
+    /* 16px 1.0000em 100.00%
+    Pixel is a static measurement, while percent and EM are relative measurements. The size of an EM or percent depends on its parent.*/
+	font-weight:  700; /*700 is same as bold*/
+	text-transform: capitalize;
+	letter-spacing: 2px; /*spacing between characters*/
+	line-height: 1.2em; /*specifies height of line*/
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 40px;
+	color: darkgoldenrod;
+    float: center;
+    display: inline-block;
+}
+ul{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    
+}
+pic{
+    float: right;
+    
+}
+
+
+
+
+
+h2 {	
+	font-family: 'Raleway', sans-serif;
+	background-color: darkgoldenrod;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: black;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+h3 {	
+	font-family: 'Roboto', sans-serif;
+	padding: 10px;
+t05rf	margin-bottom: 10px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: darkblue;
+    text-align: center;
+    
+}
+
+p {
+    /* it will choose the default font if you do not use any 'font-family: ;' */
+    
+	margin-bottom: 2em;	 
+    /* Relative to the font-size of the element (2em means 2 times the size of the current font)*/
+    line-height: 1.2em;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+pr {
+    /* it will choose the default font if you do not use any 'font-family: ;' */
+    
+	margin-bottom: 2em;	 
+    /* Relative to the font-size of the element (2em means 2 times the size of the current font)*/
+    line-height: 1.2em;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.two_col {
+    width: 400px;
+    height: 450px;
+    float: center;
+}
+
+/* forexample, if you need three col*/
+.three_col {
+    width: 260px;
+    height: 500px;
+    float: center;
+}
+
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight:  100;
+    font-size: 0.8em;
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+    float: right;
+}
